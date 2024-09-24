@@ -4,7 +4,7 @@ const axios = require('axios');
 require('dotenv').config();
 
 const port = 4000;
-const token = process.env.BOT_TOKEN || "7545219619:AAH7J1rdHyLa7Ws4gMmFABDOPeFMQLNjb8k" ;
+const token = process.env.BOT_TOKEN;
 
 const app = express();
 
